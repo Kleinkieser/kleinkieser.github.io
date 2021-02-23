@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
+@media (prefers-color-scheme: dark) {
+  html{
+    --primary-background-color: #222;
+    --primary-text-color: white;
+    --primary-highlight-color: #2e2e2e
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html{
+    --primary-background-color: white;
+    --primary-text-color: #222;
+    --primary-highlight-color: #eee
+  }
+}
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 96%;
@@ -57,8 +73,8 @@ html {
 body {
   /*background-color: var(--primary-background-color);*/
 
-  background: linear-gradient(135deg, #15ce9e, #bf7f15);
-  background-size: 400% 400%;
+  //background: linear-gradient(135deg, #15ce9e, #bf7f15);
+  //background-size: 400% 400%;
 
   -webkit-animation: Gradient 32s ease infinite;
   -moz-animation: Gradient 32s ease infinite;
@@ -108,6 +124,7 @@ body {
 .nav-link {
   ul {
     padding-inline-start: 0;
+    padding-top: 30px;
   }
   li {
     display: block;
@@ -265,6 +282,7 @@ div.highlight {
 #socrates{
   width: inherit;
   height: auto;
+  padding-right: 25px;
 }
 
 
