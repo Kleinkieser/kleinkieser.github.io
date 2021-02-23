@@ -1,9 +1,24 @@
 ---
-layout: default
-title: This is just a placeholder post
+layout: description
 ---
+<h2>{{ page.title }}</h2>
+<small>{{ post.date | date_to_string }}</small>
+{{content}}
 
-<h1>{{ post.title }}</h1>
+<div class="post-categories">
+  Categories :
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+      <a href="{{site.url}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
-{{ content }}
-
+{% if site.disqus.shortname and page.comments %}
+  <hr>
+  {% include disqus_comments.html %}
+{% endif %}

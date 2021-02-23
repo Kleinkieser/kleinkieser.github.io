@@ -1,2 +1,7 @@
-# Static site output
+*.gem
+.bundle
+.sass-cache
 _site
+Gemfile.lock
+vendor
+.jekyll-metadata
