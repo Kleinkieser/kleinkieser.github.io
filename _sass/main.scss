@@ -262,6 +262,15 @@ div.highlight {
   overflow: auto;
 }
 
+#socrates {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
 .summary-about-me{
   transition: .5s ease;
   opacity: 0;
@@ -273,21 +282,15 @@ div.highlight {
   text-align: center;
 }
 
-#socrates {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+#easter-egg:hover #socrates{
+  opacity: 0.3;
 }
-
 
 #easter-egg:hover .summary-about-me{
   opacity: 1;
 }
 
 
-#easter-egg:hover #socrates{
-  opacity: 0.3;
-}
+
+
+
