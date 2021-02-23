@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-title: Mikail Kieser | Blog
+title: Blog
 pagination:
   enabled: true
 ---
