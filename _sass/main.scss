@@ -1,20 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
 @-webkit-keyframes Gradient {
-  0%{background-position:0% 96%}
-  50%{background-position:100% 5%}
-  100%{background-position:0% 96%}
+  0% {
+    background-position: 0% 96%;
+  }
+  50% {
+    background-position: 100% 5%;
+  }
+  100% {
+    background-position: 0% 96%;
+  }
 }
 @-moz-keyframes Gradient {
-  0%{background-position:0% 96%}
-  50%{background-position:100% 5%}
-  100%{background-position:0% 96%}
+  0% {
+    background-position: 0% 96%;
+  }
+  50% {
+    background-position: 100% 5%;
+  }
+  100% {
+    background-position: 0% 96%;
+  }
 }
 @keyframes Gradient {
-  0%{background-position:0% 96%}
-  50%{background-position:100% 5%}
-  100%{background-position:0% 96%}
+  0% {
+    background-position: 0% 96%;
+  }
+  50% {
+    background-position: 100% 5%;
+  }
+  100% {
+    background-position: 0% 96%;
+  }
 }
 
 @mixin mediaQuery($point) {
@@ -32,7 +49,7 @@ html {
   --primary-background-color: white;
   --primary-text-color: #222;
   --primary-highlight-color: #eeeeee;
-  font-family: 'DotGothic16', sans-serif;
+  font-family: "DotGothic16", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -236,7 +253,6 @@ body {
   }
 }
 
-
 //custom md tags styles
 div.highlight {
   background: var(--primary-highlight-color);
@@ -246,12 +262,32 @@ div.highlight {
   overflow: auto;
 }
 
-#socrates {
-  display: none;
-
+.summary-about-me{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.summary-about-me:hover #socrates  {
-  display: fixed;
+#socrates {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
 
+
+#easter-egg:hover .summary-about-me{
+  opacity: 1;
+}
+
+
+#easter-egg:hover #socrates{
+  opacity: 0.3;
 }
