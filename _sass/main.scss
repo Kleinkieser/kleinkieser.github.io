@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
+
+@-webkit-keyframes Gradient {
+  0%{background-position:0% 96%}
+  50%{background-position:100% 5%}
+  100%{background-position:0% 96%}
+}
+@-moz-keyframes Gradient {
+  0%{background-position:0% 96%}
+  50%{background-position:100% 5%}
+  100%{background-position:0% 96%}
+}
+@keyframes Gradient {
+  0%{background-position:0% 96%}
+  50%{background-position:100% 5%}
+  100%{background-position:0% 96%}
+}
+
 @mixin mediaQuery($point) {
   @if $point == phone-width {
     @media (max-width: 480px) {
@@ -21,7 +38,15 @@ html {
 }
 
 body {
-  background-color: var(--primary-background-color);
+  /*background-color: var(--primary-background-color);*/
+
+  background: linear-gradient(135deg, #15ce9e, #bf7f15);
+  background-size: 400% 400%;
+
+  -webkit-animation: Gradient 32s ease infinite;
+  -moz-animation: Gradient 32s ease infinite;
+  animation: Gradient 32s ease infinite;
+
   color: var(--primary-text-color);
   transition: background 0.1s ease-in, color 0.1s ease-in;
   // font-size: 120%;
