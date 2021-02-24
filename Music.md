@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Music
-permalink: /music/
+permalink: /Music/
 ---
 
 ## This is MixK's music
