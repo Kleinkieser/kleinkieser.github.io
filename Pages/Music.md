@@ -17,9 +17,7 @@ This will include, but isn't limited to:
 
 <div class="grid-container" style="display: grid; grid-gap: 20px; grid-template-columns: auto auto; align-content: center;">
     
-<div><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/za/album/lunar-ep/1551624971"></iframe>
-My boy Half Deep's first official EP. He's played a massive role in my progress in the field, and is one of my closest friends.
-</div>
+<div><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/za/album/lunar-ep/1551624971"></iframe></div>
 
 <div><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/za/album/liminal/1434468188"></iframe></div>
 
