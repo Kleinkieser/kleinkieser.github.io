@@ -1,7 +1,7 @@
 ---
 layout: description
 title: Gif Collection
-permalink: 
+permalink: /gif/
 ---
 
 
