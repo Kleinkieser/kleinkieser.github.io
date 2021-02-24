@@ -10,4 +10,5 @@ And this website exists purely for fun. Kinda reminds me of the Oracle Think.net
 I'll post literally anythin i want here - Memes, gifs, music, blog about things. Its essentially another creative outlet for me.
 And whilst I'm creating this webiste, I'll be learning some CSS and HTML along the way, which can only be useful.
 
-![itsa me!](/assets/images/i-am-mikail-kieser.jpg)
+<img src="/assets/images/i-am-mikail-kieser.jpg"  id="me"/>
+
