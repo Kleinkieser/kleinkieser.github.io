@@ -1,4 +1,4 @@
-let modalBtn = document.getElementById("modal-btn")
+/* let modalBtn = document.getElementById("modal-btn")
 
 let modal = document.querySelector(".modal")
 
@@ -16,4 +16,4 @@ window.onclick = function(e) {
     if(e.target == modal) {
         modal.style.display = "none"
     }
-}
+} */
