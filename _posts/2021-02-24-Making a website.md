@@ -15,4 +15,4 @@ To simplify the process of complicating the process of creating ones' own websit
 Absolutely anything. Your website is essentially your little playground. Create blog posts, create a page dedicated to your favourite gif's, create a collection of your favourite recipes with links, or even embedd all your favourite songs into a page dedicated to the task.
 You can do whatever you want, and learn valuable coding skills in the process. 
 
-![Keep on tying!](https://media.giphy.com/media/AWxKqonePVLMY/giphy.gif)
+![Keep on typing!](https://media.giphy.com/media/AWxKqonePVLMY/giphy.gif)
