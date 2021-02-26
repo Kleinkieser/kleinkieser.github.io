@@ -10,4 +10,4 @@ Xu Xiaodong is a Chinese MMA fighter renowned for tackling some of the biggest f
 
 ![The Mad Dog himself](/assets/images/xu-xiaodong.png)
 
-![](\../assets/images/\WiP.jpg)
+![Work in progress](/assets/images/WiP.jpg)

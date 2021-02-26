@@ -17,4 +17,4 @@ You can do whatever you want, and learn valuable coding skills in the process.
 
 ![Keep on typing!](https://media.giphy.com/media/AWxKqonePVLMY/giphy.gif)
 
-![](\../assets/images/\WiP.jpg)
+![Work in progress](/assets/images/WiP.jpg)

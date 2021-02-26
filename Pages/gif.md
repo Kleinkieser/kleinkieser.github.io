@@ -4,18 +4,6 @@ title: Gif Collection
 permalink: /gif/
 ---
 
-
-
-<!-- <button id="modal-btn"> click me, I make a modal</button>
-
-<div class="modal">
-    <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <p>this is the text inside the modal</p>
-    </div>
-</div> -->
-
-
 <figure>
     <figcaption>This page is better enjoyed with some music:</figcaption>
     <audio

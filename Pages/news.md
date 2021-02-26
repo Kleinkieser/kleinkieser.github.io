@@ -4,4 +4,4 @@ title: News
 permalink: /news/
 ---
 
-## Awe mase kinnes, we gooing some north, east, west and south past and present events report.
+Essentially: the news. Obviously centred around my interests and whatnot, but also with a focus on objectivity, and  active avoidance of sensationalism and biased reporting. Will put in some RSS feeds pulling from news reddits and other sources I deem fit.

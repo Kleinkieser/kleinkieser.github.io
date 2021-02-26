@@ -1,13 +1,11 @@
 ---
 layout: post
 comments: true
-title : Emojis list
-categories: [Emoji]
+title : Emoji list
+categories: [Shitpost]
 ---
 
-
-
-## Here is the list of all the emoji or atleast max of it.
+### A list of most known emojis to test how they'd display on the site.
 
 People
 
@@ -321,5 +319,3 @@ Symbols
 | :small_blue_diamond: `:small_blue_diamond:` | :small_orange_diamond: `:small_orange_diamond:` | :small_red_triangle: `:small_red_triangle:` |
 | :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` |
 
-
-Special thanks to https://gist.github.com/rxaviers/7360908 for this list.
