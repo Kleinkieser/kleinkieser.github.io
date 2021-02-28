@@ -10,7 +10,7 @@ Xu Xiaodong is a Chinese MMA fighter renowned for tackling some of the biggest f
 
 ![The Mad Dog himself](/assets/images/xu-xiaodong.png)
 
-### Origins of the MAd Dog
+### Origins of the Mad Dog
 
 It started in 2017 when Xu came across a Tai Chi master, Wei Lei, who claimed he could escape a rear naked choke with only one hand. Xiaodong challenged Lei's claims, leading to Lei retorting and posting Xiaodongs personal cellphone number online. Xiaodong was met with numersous death threats and hate. Xiaodong consequently flew to Lei's city in order to settle the argument in a public MMA versus Tai Chi match. Unsurprisingly, Lei was out cold within 20 seconds. 
 
