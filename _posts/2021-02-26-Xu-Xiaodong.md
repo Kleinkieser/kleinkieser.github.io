@@ -22,4 +22,6 @@ The Chinese martial arts are ancient, somewhat cultural forms of fighting. They 
 
 This being said, martial arts definitley still have a place in the world, but certainly not as fighting techniques. They have much cultural significance, which should be preserved through their practice. However, purported matial arts masters should refrain from making bold claims about the efficacy of their arts, lest they themselves become responsible for the ridiculing of their art. 
 
-Xu Xiaodong is, objectively, entirely innocent. The Chinese government would do well to encourage these martial arts masters to stop perpetuating boastful falsehoods about the arts, and instead focus on preserving them and making people aware of their cultural significance.
+### A reasonable conclusion
+
+Xu Xiaodong is, objectively, entirely innocent. And his actions most certainly do not warrant his blatant censorship and physical, in-person threats from government officials. The Chinese government would do well to encourage these martial arts masters to stop perpetuating boastful falsehoods about the arts, and instead focus on preserving them and making people aware of their cultural significance.
