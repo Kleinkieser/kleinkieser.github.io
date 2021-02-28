@@ -18,8 +18,8 @@ And this is the trend that Xiaodong's life tends to follow - a martial arts expe
 
 ### Why the hate?
 
-The Chinese martial arts are ancient, somewhat cultural forms of fighting. They would be better defined as forms of physical meditation, such as yoga or pilates. When it comes to fighting, the arts often prove less than effective against even an inexperienced boxer, kickboxer, or MMA fighter. This is due to the arts entailing many unnecesary movements, and few, if any, tactical techniques. 
+The Chinese martial arts are ancient, somewhat cultural forms of fighting. They would be better defined as forms of physical meditation, such as yoga or pilates. When it comes to fighting, the arts often prove less than effective against even an inexperienced boxer, kickboxer, or MMA fighter. This is due to the arts entailing many unnecesary movements, and few, if any, tactical techniques. The Chinese government sees Xiaodong's challenges as an insult to Chinese culture. Xiaodong challenges people and their claims, not the arts. Any real damage done to the arts would come as a result of masters claiming their arts are what they aren't.
 
 This being said, martial arts definitley still have a place in the world, but certainly not as fighting techniques. They have much cultural significance, which should be preserved through their practice. However, purported matial arts masters should refrain from making bold claims about the efficacy of their arts, lest they themselves become responsible for the ridiculing of their art. 
 
-Xu Xiaodong is, objectively, entirely innocent. The Chinese government would do well to encourage these martial arts masters to stop perpetuating boastful falsehoods about the arts, and instead focus on making people aware of their cultural significance.
+Xu Xiaodong is, objectively, entirely innocent. The Chinese government would do well to encourage these martial arts masters to stop perpetuating boastful falsehoods about the arts, and instead focus on preserving them and making people aware of their cultural significance.
