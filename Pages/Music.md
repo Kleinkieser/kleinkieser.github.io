@@ -4,7 +4,7 @@ title: Music
 permalink: /music/
 ---
 
-## This is MixK's music
+### This is MixK's music
 I'm planning on having everything related to my hobby listed here - not just stuff relating to my alterego, MixK. 
 This will include, but isn't limited to:
  - My releases
