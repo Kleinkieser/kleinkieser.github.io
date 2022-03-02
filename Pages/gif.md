@@ -14,7 +14,7 @@ permalink: /gif/
 </figure>
 
 <div class="grid-container" style="display: grid; grid-gap: 20px; grid-template-columns: auto auto auto; justify-items: center;">
-    <img class="grid-item" src="https://web.archive.org/web/20091026233100/http://www.geocities.com/Area51/Cavern/5798/starwars.gif" alt="">
+    <img class="grid-item" src="kleinkieser.github.io\assets\gifs\starwars.gif" alt="">
     <img class="grid-item" src="https://web.archive.org/web/20091020132040/http://hk.geocities.com/paul_paul_ok/1/arlesimages/star.gif" alt="">
     <img class="grid-item" src="https://web.archive.org/web/20090831120659/http://geocities.com/gunsnrosesvideos/beavis_headbangingmirror.gif" alt="">
     <img class="grid-item" src="https://web.archive.org/web/20040120190632/http://www.geocities.com/tumppi2000/big-guns.gif" alt="">
