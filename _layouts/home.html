@@ -1,17 +1,31 @@
----
-title: Mikail Kieser
-layout: default
----
-<div class="mid-section-home">
-    <h1><span>I am </span>{{ site.author_name }}</h1>
-    <div class="row sub-heading">
-        <div class="summary-about-me">
-            <p>{{ page.home_text }}</p>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{"/assets/css/styles.css" | relative_url}}" media="none" onload="if(media!='all')media='all'">
+        <link rel="shortcut icon" href="{{"/m_icon.png" | relative_url }}" type="image/x-icon" />
+        
+        <!-- Load the script async and wait for the page to render for script to execute -->
+        <script defer src="{{"/assets/js/theme.js" | relative_url }}"></script>
+        <script defer src="{{"/assets/js/script.js" | relative_url }}"></script>
+    </head>
 
-            <img id="socrates" src="/assets/images/socrates.png" alt="soccieboi">
+    <body>
+        <div class="mid-section-home">
+            <h1><span>I am </span>{{ site.author_name }}</h1>
+            <div class="row sub-heading">
+                <div class="summary-about-me">
+                    <p>{{ page.home_text }}</p>
+
+                    <img id="socrates" src="/assets/images/socrates.png" alt="soccieboi">
+                </div>
+                <div class="nav-link">
+                    {% include navigation.html %}
+                </div>
+            </div>
         </div>
-        <div class="nav-link">
-            {% include navigation.html %}
-        </div>
-    </div>
-</div>
+    </body>
+  
+</html>
