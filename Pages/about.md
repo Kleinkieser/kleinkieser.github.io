@@ -17,3 +17,10 @@ So, I do have a mild background in coding, and a comparatively extensive one in 
 <img src="/assets/images/i-am-mikail-kieser.jpg"  id="me"/>
 <!-- Add in an some sort of instagram feed -->
 
+# Academics
+
+
+
+
+
+# Hobbies
