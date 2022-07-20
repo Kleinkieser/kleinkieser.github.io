@@ -1,1 +1,0 @@
-/* No theme here because were using auto system-detection to dynamically adjust meme. */

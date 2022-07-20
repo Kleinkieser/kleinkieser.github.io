@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Cooka da Meetabol - Socrates
+home_text: My online portfolio
 title: Mikail Kieser
 ---
