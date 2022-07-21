@@ -15,26 +15,26 @@
   <nav class="navbar navbar-dark bg-dark">
     <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/home.html">Home</a>
+          <a class="nav-link" href="/Pages/home.html">Home</a>
         </li>
   
         <li class="nav-item">
-          <a class="nav-link" href = "/music.html">Music</a>
+          <a class="nav-link" href = "/Pages/music.html">Music</a>
         </li>
   
         <li class="nav-item">
-          <a class="nav-link" href = "#">Programs</a>
+          <a class="nav-link" href = "/Pages/default.html">Programs</a>
         </li> 
   
         <li class="nav-item">
-          <a class="nav-link" href = "/gif_page.html">Gif Collection</a>
+          <a class="nav-link" href = "/Pages/gif_page.html">Gif Collection</a>
         </li>      
         
         <li class="nav-item">
-          <a class="nav-link" href = "/about.html">About</a>
+          <a class="nav-link" href = "/Pages/about.html">About</a>
         </li>
-  </ul>
-</nav>
+    </ul>
+  </nav>
 
   <body>
     <!-- For adding more songs: Place entire embed code inside another <div></div>. Then remove everything inside the <a></a> thats in the iframe part of the embed code. Should be good to go. -->

@@ -16,27 +16,28 @@
     <nav class="navbar navbar-dark bg-dark">
         <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/home.html">Home</a>
+                <a class="nav-link" href="/Pages/home.html">Home</a>
             </li>
-      
+        
             <li class="nav-item">
-              <a class="nav-link" href = "/music.html">Music</a>
+                <a class="nav-link" href = "/Pages/music.html">Music</a>
             </li>
-      
+        
             <li class="nav-item">
-              <a class="nav-link" href = "/default.html">Programs</a>
+                <a class="nav-link" href = "/Pages/default.html">Programs</a>
             </li> 
-      
+        
             <li class="nav-item">
-              <a class="nav-link" href = "/gif_page.html">Gif Collection</a>
+                <a class="nav-link" href = "/Pages/gif_page.html">Gif Collection</a>
             </li>      
             
             <li class="nav-item">
-              <a class="nav-link" href = "/about.html">About</a>
+                <a class="nav-link" href = "/Pages/about.html">About</a>
             </li>
-      </ul>
+        </ul>
     </nav>
 
+    <body>
         <figure>
             <figcaption>This page is better enjoyed with some music:</figcaption>
             <audio
