@@ -24,3 +24,7 @@ function onLoad() {
     element.style.setProperty("--primary-text-color", theme['text-color']);
     element.style.setProperty("--primary-highlight-color", theme['highlight-color']);
   }
+  
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
