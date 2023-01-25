@@ -10,4 +10,6 @@ File name changer - Removes specified characters, and replaces with a specified 
 
 Basic interest rate calculators.
 
-MAybe like a photo filter program - apply filters to a photo.
+Maybe like a photo filter program - apply filters to a photo.
+
+They'll have to be JS apps running in-browser, as Pages doesn't allow dynamic webpages.

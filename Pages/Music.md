@@ -4,13 +4,11 @@ title: Music
 permalink: /music/
 ---
 
-### This is MixK's music
-I'm planning on having everything related to my hobby listed here - not just stuff relating to my alterego, MixK. 
+### This is mixr's music
+I'm planning on having everything related to my hobby listed here - not just stuff relating to my alterego, miksr. 
 This will include, but isn't limited to:
- - My releases
- - plugins (with Links)
+ - My releases/mixes and such
  - other artists releases
- - Dynasty and D.O.C news
  - events
 
 <!-- For adding more songs: Place entire embed code inside another <div></div>. Then remove everything inside the <a></a> thats in the iframe part of the embed code. Should be good to go. -->
