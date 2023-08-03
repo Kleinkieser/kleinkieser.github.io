@@ -4,20 +4,26 @@ title: Music
 permalink: /music/
 ---
 
-### This is mixr's music
+### This is miksr's music
 I'm planning on having everything related to my hobby listed here - not just stuff relating to my alterego, miksr. 
 This will include, but isn't limited to:
  - My releases/mixes and such
- - other artists releases
- - events
+ - Other artists releases
+ - Events
 
 <!-- For adding more songs: Place entire embed code inside another <div></div>. Then remove everything inside the <a></a> thats in the iframe part of the embed code. Should be good to go. -->
 
 <div class="grid-container" style="display: grid; grid-gap: 20px; grid-template-columns: auto auto; align-content: center;">
     
-<div><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/za/album/lunar-ep/1551624971"></iframe></div>
+<div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/76uIy5WoBGnPlBxQ0ukTf8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 
-<div><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/za/album/liminal/1434468188"></iframe></div>
+<div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ng4fEKEsQo3i2DFR3ExpW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/peAk--C4BkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/pkju2Hqzy4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+
 
 </div>
 
