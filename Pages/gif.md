@@ -3,17 +3,6 @@ layout: description
 title: Gif Collection
 permalink: /gif/
 ---
-
-<figure>
-    <figcaption>This page is better enjoyed with some music:</figcaption>
-    <audio
-    controls
-    src="/assets/sounds/KKB - Flamingo (BassBoost).mp3">
-        Your browser does not support this <code>audio</code> element.
-    </audio>
-</figure>
-    <!-- Put some other audio in here. -->
-
 <div class="grid-container" style="display: grid; grid-gap: 20px; grid-template-columns: auto auto auto; justify-items: center;">
     <img class="grid-item" src="kleinkieser.github.io\assets\gifs\starwars.gif" alt="">
     <img class="grid-item" src="https://web.archive.org/web/20091020132040/http://hk.geocities.com/paul_paul_ok/1/arlesimages/star.gif" alt="">
