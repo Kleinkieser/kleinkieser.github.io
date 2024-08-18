@@ -60,6 +60,7 @@ body {
 /* For WebKit browsers (e.g., Chrome, Safari) */
 .container::-webkit-scrollbar {
     width: 12px; /* Width of the scrollbar */
+    margin-right: 0;
 }
 
 .container::-webkit-scrollbar-track {
