@@ -1,0 +1,188 @@
+/* Reset some basic elements */
+body, a, img, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrollbars on the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark gray background */
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Background animation */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send background behind content */
+    background: linear-gradient(135deg, #121212, #1d1d1d);
+    background-size: 200% 200%; /* Adjust background size for smooth animation */
+    animation: backgroundFlow 15s linear infinite;
+}
+
+@keyframes backgroundFlow {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.container {
+    position: relative;
+    z-index: 1; /* Ensure container is above the background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 96vh; /* Full viewport height */
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow-y: scroll; /* Allow vertical scrolling if content overflows */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    text-align: center;
+    scrollbar-color: #ffffff #000000; /* Set scrollbar color (thumb color, track color) */
+    scrollbar-width: thin; /* Set the scrollbar width to thin */
+    /* margin-bottom: 40px; */
+}
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+.container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.container::-webkit-scrollbar-track {
+    background: #000000; /* Background of the scrollbar track */
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.profile-section {
+    margin-bottom: 20px; /* Space between profile section and cards */
+    margin-top: 40px;
+}
+
+.profile-img {
+    width: 150px; /* Profile image size */
+    height: 150px; /* Profile image size */
+    border-radius: 50%; /* Circular profile image */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+
+.profile-img.sparkle {
+    animation: sparkle 0.5s forwards; /* Apply sparkle animation on click */
+}
+
+@keyframes sparkle {
+    0% {
+        box-shadow: 0 0 5px #ffffff;
+    }
+    50% {
+        box-shadow: 0 0 15px #ffffff;
+    }
+    100% {
+        box-shadow: 0 0 5px #ffffff;
+    }
+}
+
+.profile-heading {
+    color: white; /* Text color for profile heading */
+    font-size: 24px; /* Font size for profile heading */
+    margin-top: 15px; /* Space between image and heading */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better spacing between cards */
+    width: 100%; /* Full width of the container */
+    /* max-height: calc(100vh - 150px); Adjust to fit remaining height */
+}
+
+.card {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    background-color: #1db954; /* Spotify green */
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 400px; /* Wider width for the card */
+    height: 80px; /* Thinner height for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for better card visibility */
+}
+
+.card:hover {
+    background-color: #000000; /* Slightly lighter Spotify green */
+}
+
+.card:active {
+    background-color: #1aa34a; /* Even darker green for active state */
+    transform: scale(0.98);
+}
+
+.card-img {
+    width: 50%; /* Image takes up 50% of the card width */
+    height: 100%; /* Full height of the card */
+    object-fit: cover; /* Ensure image covers area without distortion */
+    margin-right: 0; /* No margin between image and text */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 50%; */
+    padding-left: 15px;
+    padding-top: 0px;
+    flex-wrap: nowrap;
+    margin-top: -20px;
+}
+
+.card-heading {
+    font-size: 20px; /* Increased font size */
+    margin-bottom: 5px;
+    
+}
+
+.card-subtext {
+    font-size: 16px; /* Increased font size */
+}
+
+/* Styling for the scroll indicator arrow */
+.scroll-indicator {
+    position: fixed;
+    bottom: 20px; /* Space from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the element */
+    font-size: 24px; /* Size of the arrow */
+    color: rgba(255, 255, 255, 0.7); /* Semi-translucent white color */
+    pointer-events: none; /* Prevent interaction with the arrow */
+    transition: opacity 0.3s; /* Smooth transition for fading out */
+    z-index: 2;
+}
+
+.scroll-indicator.hidden {
+    opacity: 0; /* Hide the arrow when scrolled */
+}
+

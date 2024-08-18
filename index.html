@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Style</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll indicator arrow -->
+    <!-- <div class="scroll-indicator" id="scroll-indicator">&#9660;</div> -->
+    <div class="background"></div>
+    <div class="container">
+        <div class="profile-section">
+            <img src="pfp_dalle.png" alt="Profile Picture" class="profile-img">
+            <h1 class="profile-heading">Alastor Aidos</h1>
+        </div>
+        <div class="card-container">
+            <a href="https://www.instagram.com/alastoraidos/" class="card" onclick="handleClick(event)">
+                <img src="instagram.jpg" alt="Icon" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-heading">Instagram</h2>
+                    <p class="card-subtext">Frequent updates</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/channel/UCdQIw5d5dHTSwe76HQK1NUA" class="card" onclick="handleClick(event)">
+                <img src="youtube.jpg" alt="Icon" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-heading">YouTube</h2>
+                    <p class="card-subtext">Mixes and more</p>
+                </div>
+            </a>
+            <a href="https://open.spotify.com/user/n26ofwx4szwat3h3psh0qx56v?si=12207333f934410a" class="card" onclick="handleClick(event)">
+                <img src="spotify.png" alt="Icon" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-heading">Spotify</h2>
+                    <p class="card-subtext">Setlists</p>
+                </div>
+            </a>
+            <a href="https://soundcloud.com/alastoraidos" class="card" onclick="handleClick(event)">
+                <img src="soundcloud.jpg" alt="Icon" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-heading">SoundCloud</h2>
+                    <p class="card-subtext">Mixes</p>
+                </div>
+            </a>
+            <a href="mailto:enquiries@alastoraidos.com" class="card" onclick="handleClick(event)">
+                <img src="message.webp" alt="Icon" class="card-img">
+                <div class="card-content">
+                    <h2 class="card-heading">Enquiries</h2>
+                    <p class="card-subtext">Bookings and other</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
