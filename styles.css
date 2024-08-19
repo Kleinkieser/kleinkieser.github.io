@@ -15,6 +15,24 @@ body {
     background-color: #121212; /* Dark gray background */
     padding-top: 20px;
     padding-bottom: 40px;
+    background-image: url('alastor_banner_landscape.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background image for portrait orientation */
+@media only screen and (orientation: portrait) {
+    body {
+        background-image: url('alastor_banner_portait.png');
+    }
+}
+
+/* Background image for landscape orientation */
+@media only screen and (orientation: landscape) {
+    body {
+        background-image: url('alastor_banner_landscape.png');
+    }
 }
 
 /* Background animation */
@@ -58,21 +76,21 @@ body {
 }
 
 /* For WebKit browsers (e.g., Chrome, Safari) */
-.container::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+/* .container::-webkit-scrollbar {
+    width: 12px;
 }
 
 .container::-webkit-scrollbar-track {
-    background: #000000; /* Background of the scrollbar track */
+    background: #000000;
 }
 
 .container::-webkit-scrollbar-thumb {
-    background: #ffffff; /* Color of the scrollbar thumb */
-    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
-}
+    background: #ffffff;
+    border-radius: 10px;
+} */
 
 .profile-section {
-    margin-bottom: 20px; /* Space between profile section and cards */
+    margin-bottom: 20px;
     margin-top: 40px;
 }
 
