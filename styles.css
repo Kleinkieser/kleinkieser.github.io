@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #121212; /* Dark gray background */
+    /* background-color: #121212; */
     padding-top: 20px;
     padding-bottom: 40px;
     background-image: url('alastor_banner_landscape.png');
