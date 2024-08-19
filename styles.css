@@ -70,8 +70,8 @@ body {
     overflow-y: scroll; /* Allow vertical scrolling if content overflows */
     overflow-x: hidden; /* Prevent horizontal scrolling */
     text-align: center;
-    scrollbar-color: #ffffff #000000; /* Set scrollbar color (thumb color, track color) */
-    scrollbar-width: thin; /* Set the scrollbar width to thin */
+    /* scrollbar-color: #ffffff #000000; */
+    /* scrollbar-width: thin; */
     /* margin-bottom: 40px; */
 }
 
