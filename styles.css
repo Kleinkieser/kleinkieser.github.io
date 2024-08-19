@@ -67,7 +67,7 @@ body {
     height: 96vh; /* Full viewport height */
     padding-left: 40px;
     padding-right: 40px;
-    overflow-y: scroll; /* Allow vertical scrolling if content overflows */
+    overflow-y: hidden; /* Allow vertical scrolling if content overflows */
     overflow-x: hidden; /* Prevent horizontal scrolling */
     text-align: center;
     /* scrollbar-color: #ffffff #000000; */
