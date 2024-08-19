@@ -35,28 +35,6 @@ body {
     }
 }
 
-/* Background animation */
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Send background behind content */
-    background: linear-gradient(135deg, #121212, #1d1d1d);
-    background-size: 200% 200%; /* Adjust background size for smooth animation */
-    animation: backgroundFlow 15s linear infinite;
-}
-
-@keyframes backgroundFlow {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: 100% 100%;
-    }
-}
-
 .container {
     position: relative;
     z-index: 1; /* Ensure container is above the background */
@@ -90,7 +68,7 @@ body {
 } */
 
 .profile-section {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 40px;
 }
 
