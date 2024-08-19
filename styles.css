@@ -1,6 +1,6 @@
 /* Reset some basic elements */
 body, a, img, p {
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,8 +11,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    /* background-color: #121212; */
+    min-height: 100vh; /* Use min-height for better adaptability */
+    background-color: #121212; /* Dark gray background */
     padding-top: 20px;
     padding-bottom: 40px;
     background-image: url('alastor_banner_landscape.png');
@@ -24,7 +24,7 @@ body {
 /* Background image for portrait orientation */
 @media only screen and (orientation: portrait) {
     body {
-        background-image: url('alastor_banner_portait.png');
+        background-image: url('alastor_banner_portrait.png');
     }
 }
 
@@ -35,41 +35,45 @@ body {
     }
 }
 
+/* Styling for the container with scrollbar */
 .container {
     position: relative;
-    z-index: 1; /* Ensure container is above the background */
+    z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    height: 96vh; /* Full viewport height */
-    padding-left: 40px;
-    padding-right: 40px;
-    overflow-y: hidden; /* Allow vertical scrolling if content overflows */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+    overflow: hidden; /* Hide scrollbars by default */
     text-align: center;
-    /* scrollbar-color: #ffffff #000000; */
-    /* scrollbar-width: thin; */
-    /* margin-bottom: 40px; */
+    padding-right: 12px; /* Ensure there's space for the scrollbar */
+    box-sizing: content-box; /* Ensure padding doesn't affect the container's width */
 }
 
 /* For WebKit browsers (e.g., Chrome, Safari) */
-/* .container::-webkit-scrollbar {
-    width: 12px;
+.container::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
 }
 
 .container::-webkit-scrollbar-track {
-    background: #000000;
+    background: #000000; /* Background of the scrollbar track (black) */
+    border-radius: 10px; /* Rounded corners for the scrollbar track */
 }
 
 .container::-webkit-scrollbar-thumb {
-    background: #ffffff;
-    border-radius: 10px;
-} */
+    background: #1db954; /* Color of the scrollbar thumb (Spotify green) */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
 
-.profile-section {
-    margin-bottom: 0px;
-    margin-top: 40px;
+/* For Firefox */
+.container {
+    scrollbar-width: thin; /* Make scrollbar thin */
+    scrollbar-color: #1db954 #000000; /* Scrollbar thumb color and track color */
+}
+
+/* Ensure container scrolls properly */
+.container.scrollable {
+    overflow-y: scroll; /* Show vertical scrollbar when content overflows */
 }
 
 .profile-img {
@@ -111,9 +115,9 @@ body {
     flex-direction: column;
     gap: 20px; /* Increased gap for better spacing between cards */
     width: 100%; /* Full width of the container */
-    /* max-height: calc(100vh - 150px); Adjust to fit remaining height */
 }
 
+/* Default card styles */
 .card {
     display: flex;
     align-items: center; /* Align items vertically center */
@@ -122,9 +126,16 @@ body {
     border: none;
     text-decoration: none;
     transition: background-color 0.3s, transform 0.2s;
-    width: 400px; /* Wider width for the card */
+    width: 400px; /* Fixed width for desktop */
     height: 80px; /* Thinner height for the card */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for better card visibility */
+}
+
+/* Responsive card styles for mobile */
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 90vw; /* Responsive width for mobile */
+    }
 }
 
 .card:hover {
@@ -141,6 +152,17 @@ body {
     height: 100%; /* Full height of the card */
     object-fit: cover; /* Ensure image covers area without distortion */
     margin-right: 0; /* No margin between image and text */
+    position: relative;
+}
+
+.card-img::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to left, transparent, #1db954); /* Fade effect */
 }
 
 .card-content {
@@ -148,37 +170,21 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* width: 50%; */
     padding-left: 15px;
     padding-top: 0px;
+    margin-top: 0px;
+    top: 0px;
     flex-wrap: nowrap;
-    margin-top: -20px;
 }
 
 .card-heading {
     font-size: 20px; /* Increased font size */
     margin-bottom: 5px;
-    
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .card-subtext {
     font-size: 16px; /* Increased font size */
-}
-
-/* Styling for the scroll indicator arrow */
-.scroll-indicator {
-    position: fixed;
-    bottom: 20px; /* Space from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center the element */
-    font-size: 24px; /* Size of the arrow */
-    color: rgba(255, 255, 255, 0.7); /* Semi-translucent white color */
-    pointer-events: none; /* Prevent interaction with the arrow */
-    transition: opacity 0.3s; /* Smooth transition for fading out */
-    z-index: 2;
-}
-
-.scroll-indicator.hidden {
-    opacity: 0; /* Hide the arrow when scrolled */
 }
 

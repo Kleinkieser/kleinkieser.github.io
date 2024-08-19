@@ -25,3 +25,17 @@
 //     handleScroll();
 // });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var container = document.querySelector('.container');
+    
+    function checkOverflow() {
+        if (container.scrollHeight > container.clientHeight) {
+            container.classList.add('scrollable');
+        } else {
+            container.classList.remove('scrollable');
+        }
+    }
+
+    checkOverflow();
+    window.addEventListener('resize', checkOverflow); // Check on window resize
+});
